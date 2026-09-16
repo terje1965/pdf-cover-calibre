@@ -15,7 +15,7 @@ class PDFCoverActionBase(InterfaceActionBase):
     supported_platforms = ['windows', 'osx', 'linux']
     author              = 'C Warren Dale'
     file_types          = set(['pdf'])
-    version             = (0, 1, 0)
+    version = (0, 1, 1)
     minimum_calibre_version = (0, 7, 53)
 
     #: This field defines the GUI plugin class that contains all the code
